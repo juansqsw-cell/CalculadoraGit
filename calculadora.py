@@ -12,7 +12,11 @@ def division(a, b):
         return "Error: no se puede dividir entre cero"
     return a / b
 
-print("Prueba suma:", suma(3, 5))
-print("Prueba resta:", resta(10, 4))
-print("Prueba multiplicacion:", multiplicacion(3, 7))
-print("Prueba division:", division(10, 2))
+def potencia(base, exponente):
+    return base ** exponente
+
+print("Suma:", suma(3, 5))
+print("Resta:", resta(10, 4))
+print("Multiplicacion:", multiplicacion(3, 7))
+print("Division:", division(10, 2))
+print("Potencia:", potencia(2, 8))
